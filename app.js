@@ -18,5 +18,10 @@ let hobbies = ["gaming", "cooking", "Reading"];
 // objects with its properties
 let job = {title:"developer", place:"cape town", salary:"R10000"};
 
-alert(hobbies [0]);
-alert(job.place)
+// forming operations
+let adultYears = age - 18;
+alert(adultYears);
+// target for array
+// alert(hobbies [0]);
+ // target for objects
+// alert(job.place);
