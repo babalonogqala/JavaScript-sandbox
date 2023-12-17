@@ -19,9 +19,19 @@ let hobbies = ["gaming", "cooking", "Reading"];
 let job = {title:"developer", place:"cape town", salary:"R10000"};
 
 // forming operations
-let adultYears = age - 18;
-alert(adultYears);
+// let adultYears = age - 18;
+// alert(adultYears);
 // target for array
 // alert(hobbies [0]);
  // target for objects
 // alert(job.place);
+
+// function
+let adultYears;
+function calculateAdultYears() {
+   adultYears = age - 18;
+}
+
+// calling a function
+calculateAdultYears();
+alert(adultYears);
