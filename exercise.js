@@ -27,15 +27,30 @@ let mainGoals = [" getting a job", " become all round dev", " taking my skills t
 
 // 2)
 alert(zeroToMastry);
-alert(price);
+alert("R"+price);
 alert(mainGoals);
 
 // 3)
-alert(zeroToMastry + price + mainGoals);
+// alert(zeroToMastry + price + mainGoals); WRONG ANSWER
+// correct answer
+ let online = {
+    name: zeroToMastry, price: price, goals: mainGoals,
+ };
+ 
+ alert(online.name);
+ alert(online.price);
+ alert(online.goals);
 
 // 4)
 alert(mainGoals[1]);
 
 // 5)
+function accessListItem(array, arrayIndex){
+    let arrayElement = array[arrayIndex];
+    return arrayElement;
+}
+
+let firstGoal = getListItem(online.goals, 0);
+alert(firstGoal);
 
 
