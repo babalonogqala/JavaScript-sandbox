@@ -19,3 +19,23 @@
 //      with ANY list of values
 //    - The custom command should provide the accessed value (i.e. the list element)
 // 6) Execute your custom command from (5) and output ("alert") the result
+
+// 1)
+let zeroToMastry = " zero to mastry cource ";
+let price = 20000;
+let mainGoals = [" getting a job", " become all round dev", " taking my skills to the next level"];
+
+// 2)
+alert(zeroToMastry);
+alert(price);
+alert(mainGoals);
+
+// 3)
+alert(zeroToMastry + price + mainGoals);
+
+// 4)
+alert(mainGoals[1]);
+
+// 5)
+
+
