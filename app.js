@@ -11,7 +11,7 @@
 
 
 // variables
-let age = 20;
+// let age = 20;
 let username = "Babalo";
 // arrays
 let hobbies = ["gaming", "cooking", "Reading"];
@@ -28,10 +28,11 @@ let job = {title:"developer", place:"cape town", salary:"R10000"};
 
 // function
 let adultYears;
-function calculateAdultYears() {
-   adultYears = age - 18;
+function calculateAdultYears(userAge) {
+   return userAge - 12;
 }
 
+let age = 20;
 // calling a function
-calculateAdultYears();
+adultYears = calculateAdultYears(age);
 alert(adultYears);
