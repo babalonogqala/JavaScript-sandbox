@@ -27,12 +27,14 @@ age = 100;
 let years = age + 18;
 alert("my age plus 18 = " + years);
 
+let player1 = "xhanti";
 // functions
-function calculateAdultYears(){
-   let player1 = "xhanti";
-   return player1; //return the variable name 
+function calculateAdultYears(userAge){
+   
+   return  userAge - 18;
+   // return player1; //return the variable name 
 }
 
 // calling a function
-player = calculateAdultYears();
+player1 = calculateAdultYears(age);
  alert(player1);
