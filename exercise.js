@@ -55,4 +55,4 @@ function calculateNumber(num1, num2){
 };
 
 let display = calculateNumber(multiple, [1]);
-alert(display);
+alert(display); 
