@@ -20,37 +20,3 @@
 //    - The custom command should provide the accessed value (i.e. the list element)
 // 6) Execute your custom command from (5) and output ("alert") the result
 
-// 1)
-let zeroToMastry = " zero to mastry cource ";
-let price = 20000;
-let mainGoals = [" getting a job", " become all round dev", " taking my skills to the next level"];
-
-// 2)
-alert(zeroToMastry);
-alert("R"+price);
-alert(mainGoals);
-
-// 3)
-// alert(zeroToMastry + price + mainGoals); WRONG ANSWER
-// correct answer
- let online = {
-    name: zeroToMastry, price: price, goals: mainGoals,
- };
- 
- alert(online.name);
- alert(online.price);
- alert(online.goals);
-
-// 4)
-alert(mainGoals[1]);
-
-// 5)
-function accessListItem(array, arrayIndex){
-    let arrayElement = array[arrayIndex];
-    return arrayElement;
-}
-
-let firstGoal = getListItem(online.goals, 0);
-alert(firstGoal);
-
-

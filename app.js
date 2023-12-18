@@ -1,38 +1,38 @@
-// let greetingText = "Hi I'm Babalo!";
-// let number = 32;
-// alert(greetingText);
-// alert(greetingText);
-// greetingText = "Hi i am babalo nogqala";
-// alert(greetingText);
+// this is a variable for string and integer
+let myName = "Babalo";
+let age = 20;
+// and how they are run/display
+alert(age);
+alert(myName);
 
-// age = 100;
-// alert("I am " + age + " years of age no CAP");
-// alert(number);
+// array
+let games = ["naruto"," call of duty", " hangman"];
+// display
+alert(games); //to display all the array for games at once.
+alert(games[2]); //this is use to display one thing from the array, and this will display "call of duty".
 
+// objects
+let ID ={
+   name: "Babalo Nogqala",
+   number: 30044234324,
+   nationality: "South Africa",
+};
 
-// variables
-// let age = 20;
-let username = "Babalo";
-// arrays
-let hobbies = ["gaming", "cooking", "Reading"];
-// objects with its properties
-let job = {title:"developer", place:"cape town", salary:"R10000"};
+// display objects
+alert(ID.name);
 
 // forming operations
-// let adultYears = age - 18;
-// alert(adultYears);
-// target for array
-// alert(hobbies [0]);
- // target for objects
-// alert(job.place);
 
-// function
-let adultYears;
-function calculateAdultYears(userAge) {
-   return userAge - 12;
+age = 100;
+let years = age + 18;
+alert("my age plus 18 = " + years);
+
+// functions
+function calculateAdultYears(){
+   let player1 = "xhanti";
+   return player1; //return the variable name 
 }
 
-let age = 20;
 // calling a function
-adultYears = calculateAdultYears(age);
-alert(adultYears);
+player = calculateAdultYears();
+ alert(player1);
