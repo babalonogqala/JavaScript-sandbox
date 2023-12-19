@@ -40,12 +40,44 @@
 //  alert(player1);
 
 
- let person = {
-   name: "Babalo", //property
-   greet(){ //method
-      console.log("hello");
-   }
- };
+//  let person = {
+//    name: "Babalo", //property
+//    greet(){ //method
+//       console.log("hello");
+//    }
+//  };
 
-person.greet();
-console.log("Hello World");
+// person.greet();
+// console.log("Hello World");
+
+let myName = "babalo";
+let age = 20;
+let course = ["web development", " android development", " react developer"];
+
+console.log(myName);
+console.log(age);
+console.log(course[0]);
+
+let person = {
+  name: myName,
+  courses: course,
+  Number: 12132243234,
+  salary: 200,
+  greet(){
+    let myAge = age - 10 ;
+    return myAge;
+  },
+};
+
+;
+console.log(person.greet());
+
+function displayCourse(array, arrayCourse){
+  let myCourse = array[arrayCourse];
+  return myCourse;
+};
+
+let display = displayCourse(person.courses, [1]);
+console.log(display);
+
+
